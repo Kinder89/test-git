@@ -1,0 +1,88 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+h1 {
+  margin: auto;
+  font-family: Bai Jamjuree;
+  font-weight: bold;
+  font-size: 60px;
+  line-height: 60px;
+  align-items: center;
+  text-align: center;
+  letter-spacing: -0.02em;
+  color: #79717e;
+}
+
+h4 {
+  font-family: Bai Jamjuree;
+  font-size: 24px;
+  line-height: 30px;
+  text-align: center;
+  letter-spacing: -0.01em;
+  color: #5e99fd;
+  margin: 30px auto;
+  width: 900px;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+  max-width: 1200px;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  width: 350px;
+  margin: 10px;
+  padding: 25px;
+}
+
+.box:hover {
+  background: #E6EFFF;
+  border-radius: 8px;
+}
+
+.box-content {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.box-img {
+  display: table-cell;
+  vertical-align: middle;
+  margin-right: 25px;
+  width: 48px;
+  height: 48px;
+  background: #E6EFFF;
+  border-radius: 99px;
+}
+
+.box-img:hover {
+  background: white;
+}
+
+img {
+  margin: 13px 0 0 12px;
+}
+
+h5 {
+  font-family: Bai Jamjuree;
+  font-size: 20px;
+  line-height: 32px;
+  align-items: center;
+  letter-spacing: 0.15px;
+}
+
+.text {
+  font-family: Roboto;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0.15px;
+  margin-left: 70px;
+}
+
+/*# sourceMappingURL=style.css.map */
